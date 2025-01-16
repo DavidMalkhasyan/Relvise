@@ -347,6 +347,7 @@ a {
     align-items: center;
     width: 100%;
     flex-direction: column;
+    gap: 40px;
 }
 
 .practice-advice__container1 {
@@ -455,6 +456,14 @@ a {
     padding-top: 100px;
     padding-bottom: 100px;
 }
+
+.what-we-are__iframe{
+    width: 597px;
+    height: 442px;
+    gap: 0px;
+    opacity: 0px;    
+}
+
 
 .who-we-are__title {
     font-family: Montserrat;
@@ -717,9 +726,15 @@ a {
             color: #0d5c63;
             border: 1px solid #0d5c63;
         }
+        .what-we-are__iframe{
+            width: 497px;
+            height: 342px;
+            gap: 0px;
+            opacity: 0px;    
+        }
     }
 
-    @media (max-width: 480px) {
+    @media (max-width: 512px) {
 
         .container {
             padding-left: 10px;
@@ -797,6 +812,11 @@ a {
             background: #ffffff;
             color: #0d5c63;
             border: 1px solid #0d5c63;
+        }
+
+        .what-we-are__iframe{
+            width:300px; 
+            height:202px; 
         }
         
     }
